@@ -8,7 +8,7 @@ const express    = require('express'),
   expressLayouts = require('express-ejs-layouts'),
   mongoose       = require('mongoose'),
   bodyParser     = require('body-parser'),
-  cookieSession  = require('cookie-session')
+  
   session        = require('express-session'),
   cookieParser   = require('cookie-parser'),
   flash          = require('connect-flash'),
